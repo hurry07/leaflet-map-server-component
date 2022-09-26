@@ -29,6 +29,9 @@
   },
   "homepage": "https://github.com/pimterry/leaflet-map-server-component#readme",
   "dependencies": {
+    "domino": "^1.0.23",
+    "validate-element-name": "^1.0.0",
+    "cesium": "^1.97.0",
     "leaflet": "^0.7.7",
     "resolve-pkg": "^0.1.0",
     "sandboxed-module": "^2.0.3",

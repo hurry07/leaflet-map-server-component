@@ -1,12 +1,12 @@
-var components = require("server-components");
+const components = require("server-components");
 
 require("./src/index.js");
 
-var express = require("express");
-var app = express();
+const express = require("express");
+const app = express();
 app.use(require("./node_modules/server-components-express/src/index.js"));
 
-var html = `
+const html = `
 <html>
 <head></head>
 <body>

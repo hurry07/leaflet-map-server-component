@@ -4,7 +4,7 @@
  * environment.
  */
 
-var SandboxedModule = require('sandboxed-module');
+const SandboxedModule = require('sandboxed-module');
 module.exports = SandboxedModule.require('leaflet', {
   sourceTransformers: {
       wrapToInjectGlobals: function (source) {
